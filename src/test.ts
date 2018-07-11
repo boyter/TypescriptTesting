@@ -29,3 +29,7 @@ _.each([], function(e) {
 
 // Say we want to use underscore
 declare var _: any;
+
+import { SearchModel } from "./SearchModel"
+
+SearchModel.searchvalue
