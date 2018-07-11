@@ -22,3 +22,10 @@ import { ZipCodeValidator } from "./module";
 
 let myValidator = new ZipCodeValidator();
 myValidator.isAcceptable("")
+
+_.each([], function(e) {
+    console.log(e);
+});
+
+// Say we want to use underscore
+declare var _: any;
